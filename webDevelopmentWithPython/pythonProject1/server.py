@@ -1,23 +1,23 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
 
-@app.route('/<username>/<int:postid>')
-def hello_world(username=None, postid=None):
-    return render_template('./index.html', name=f'hello ms/mss {username},', mymy=postid)
+@app.route('/<username>/<int:post_id>')
+def hello_world(username=None, post_id=None):
+    return render_template('index.html', name=username.upper(), post_id=post_id)
 
 
-@app.route('/<username>')
-def url_func(username=None):
-    return render_template('./index.html', name=username)
+@app.route('/<string:username>')
+def all_pages(username, post_id=None):
+    return render_template(username, name=username, post_id=post_id)
 
 
-@app.route('/blog')
-def blog_func():
-    return 'this is a blog page that created with function in python'
-
-
-@app.route('/blog/tec')
-def tec_func():
-    return 'mobile app and technology'
+@app.route('/<username>/submit_form', methods=["POST", "GET"])
+def submit_form(username=None):
+    if request.method == "POST":
+        data = request.form.to_dict()
+        print(data)
+        return redirect('/thankyou.html')
+    else:
+        return "some thing went wrong try again"
