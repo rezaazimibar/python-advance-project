@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -7,7 +7,7 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Daniel Eden
 */
 
-.animated {
+/* .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -122,11 +122,11 @@ Copyright (c) 2015 Daniel Eden
 .flash {
   -webkit-animation-name: flash;
   animation-name: flash;
-}
+} */
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@-webkit-keyframes pulse {
+/* @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
@@ -1184,9 +1184,9 @@ Copyright (c) 2015 Daniel Eden
     -webkit-transform: none;
     transform: none;
   }
-}
+} */
 
-@keyframes fadeInDown {
+/* @keyframes fadeInDown {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
@@ -1838,9 +1838,9 @@ Copyright (c) 2015 Daniel Eden
     -webkit-transform: perspective(400px);
     transform: perspective(400px);
   }
-}
+} */
 
-.flipInX {
+/* .flipInX {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
@@ -2610,8 +2610,8 @@ Copyright (c) 2015 Daniel Eden
     -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
     transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
   }
-}
-
+} */
+/* 
 @keyframes rollOut {
   from {
     opacity: 1;
@@ -3269,4 +3269,4 @@ Copyright (c) 2015 Daniel Eden
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
-}
+} */
