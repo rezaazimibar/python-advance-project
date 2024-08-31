@@ -1,0 +1,10 @@
+
+ www.x@x.com,sdfsdf
+ email is: www.x@x.com,and the content is: dsfsdf
+ email is: (ww@dsf.com),and the content is: (hello it is me)
+ email is: (ww@dsf.com),and the content is: (sdfsdfsdf)
+ email is: (ww@dsf.com),and the content is: (sdfsdfsdf)
+ email is: (ww@dsf.com),and the content is: (sdfsdfsdf)
+ email is: (ww@dsf.com),and the content is: (sdfsdfsdf)
+ email is: (ww@dsf.com),and the content is: (sdfsdfsdf)
+ email is: (ww@dsf.com),and the content is: (sdfsdfsdf)
